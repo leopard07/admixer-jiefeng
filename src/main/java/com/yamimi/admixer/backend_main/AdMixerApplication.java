@@ -7,11 +7,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class BackendMainApplication {
+public class AdMixerApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(BackendMainApplication.class, args);
+        SpringApplication.run(AdMixerApplication.class, args);
     }
 
 }
